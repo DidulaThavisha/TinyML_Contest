@@ -113,7 +113,7 @@ def main():
     torch.save(net, '/kaggle/working/TinyML_Contest/IEGM_net.pkl')
     torch.save(net.state_dict(), '/kaggle/working/TinyML_Contest/IEGM_net_state_dict.pkl')
 
-    file = open('./saved_models/loss_acc.txt', 'w')
+    file = open('/kaggle/working/TinyML_Contest/loss_acc.txt', 'w')
     file.write("Train_loss\n")
     file.write(str(Train_loss))
     file.write('\n\n')
