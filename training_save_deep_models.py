@@ -110,8 +110,8 @@ def main():
         Test_loss.append(running_loss_test / i)
         Test_acc.append((correct / total).item())
 
-    torch.save(net, '/kaggle/working/TinyML_Contest/saved_models/IEGM_net.pkl')
-    torch.save(net.state_dict(), '/kaggle/working/TinyML_Contest/saved_models/IEGM_net_state_dict.pkl')
+    torch.save(net, '/kaggle/working/TinyML_Contest/IEGM_net.pkl')
+    torch.save(net.state_dict(), '/kaggle/working/TinyML_Contest/IEGM_net_state_dict.pkl')
 
     file = open('./saved_models/loss_acc.txt', 'w')
     file.write("Train_loss\n")
