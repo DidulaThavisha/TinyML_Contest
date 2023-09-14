@@ -15,7 +15,7 @@ def main():
     LR = args.lr
     EPOCH = args.epoch
     SIZE = args.size
-    path_data = args.path_data
+    path_data = '/kaggle/working/TinyML_Contest'
     path_indices = args.path_indices
 
     # Instantiating NN
