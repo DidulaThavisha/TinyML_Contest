@@ -89,7 +89,8 @@ def stats_report(mylist):
     acc = round(ACC(mylist), 5)
     ppv = round(PPV(mylist), 5)
     npv = round(NPV(mylist), 5)
-
+    
+    score = 70*fb 
     output = str(mylist) + '\n' + \
              "F-1 = " + str(f1) + '\n' + \
              "F-B = " + str(fb) + '\n' + \
@@ -98,6 +99,7 @@ def stats_report(mylist):
              "BAC = " + str(bac) + '\n' + \
              "ACC = " + str(acc) + '\n' + \
              "PPV = " + str(ppv) + '\n' + \
+             "Sco = " + str(score) + '\n' + \
              "NPV = " + str(npv) + '\n'
 
     # print("F-1 = ", F1(mylist))
