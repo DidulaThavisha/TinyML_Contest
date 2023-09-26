@@ -99,7 +99,6 @@ def stats_report(mylist):
              "BAC = " + str(bac) + '\n' + \
              "ACC = " + str(acc) + '\n' + \
              "PPV = " + str(ppv) + '\n' + \
-             #"Sco = " + str(score) + '\n' + \
              "NPV = " + str(npv) + '\n'
 
     # print("F-1 = ", F1(mylist))
